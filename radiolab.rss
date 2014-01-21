@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.wnyc.org/~d/styles/itemcontent.css"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+  <channel>
+
+
+    <title>WNYC's Radiolab</title>
+    <link>http://www.radiolab.org/series/podcasts/</link>
+    <description>Radiolab believes your ears are a portal to another world. Where sound illuminates ideas, and the boundaries blur between science, philosophy, and human experience. Big questions are investigated, tinkered with, and encouraged to grow. Bring your curiosity, and we'll feed it with possibility.  Radiolab is heard around the country on over 300 stations. Check your local station for airtimes.  Get the Radiolab widget! (embed the Radiolab widget on your blog or site)</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Oct 2011 19:00:00 -0400</lastBuildDate>
+    <ttl>600</ttl>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.wnyc.org/radiolab" />
+    <feedburner:info uri="radiolab" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+    <media:copyright>© WNYC Radio</media:copyright>
+    <media:thumbnail url="http://parmenides.wnyc.org/media/photologue/photos/radiolab____.jpg" />
+    <media:keywords>Science,Technology,Philosophy,Education,radiolab,jad,abumrad,krulwich,Radio,Lab</media:keywords>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Science &amp; Medicine/Natural Sciences</media:category>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Society &amp; Culture</media:category>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Education</media:category>
+    <itunes:owner>
+      <itunes:email>listenerservices@wnyc.org</itunes:email>
+      <itunes:name>Jad Abumrad &amp; Robert Krulwich</itunes:name>
+    </itunes:owner>
+    <itunes:author>Jad Abumrad &amp; Robert Krulwich</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="http://parmenides.wnyc.org/media/photologue/photos/radiolab____.jpg" />
+    <itunes:keywords>Science,Technology,Philosophy,Education,radiolab,jad,abumrad,krulwich,Radio,Lab</itunes:keywords>
+    <itunes:subtitle>On Radiolab, science meets culture and information sounds like music. Each episode of Radiolab® is an investigation -- a patchwork of people, sounds, stories and experiences centered around One Big Idea. Hosted by Jad Abumrad and Robert Krulwich, Radiolab</itunes:subtitle>
+    <itunes:summary>On Radiolab, science meets culture and information sounds like music. Each episode of Radiolab® is an investigation -- a patchwork of people, sounds, stories and experiences centered around One Big Idea. Hosted by Jad Abumrad and Robert Krulwich, Radiolab is produced by WNYC public radio. Support the adventure with a donation by pasting the following URL into your browser: http://www.wnyc.org/epledge/radiolab</itunes:summary>
+    <itunes:category text="Science &amp; Medicine">
+      <itunes:category text="Natural Sciences" />
+    </itunes:category>
+    <itunes:category text="Society &amp; Culture" />
+    <itunes:category text="Education" />
+    <feedburner:feedFlare href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Ffeeds.wnyc.org%2Fradiolab" src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with NewsGator</feedburner:feedFlare>
+    <feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.wnyc.org%2Fradiolab" src="http://www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare>
+    <feedburner:feedFlare href="http://add.my.yahoo.com/rss?url=http%3A%2F%2Ffeeds.wnyc.org%2Fradiolab" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare>
+    <feedburner:feedFlare href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.wnyc.org%2Fradiolab" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare>
+
+
+    <item>
+      <title>Shorts: Slow</title>
+      <link>%%HOST%%/testing/radioslow.html</link>
+      <description>&lt;p&gt;Kohn Ashmore’s voice is arresting. It stopped his friend &lt;strong&gt;&lt;a href="http://andymillsmedia.tumblr.com/"&gt;Andy Mills&lt;/a&gt;&lt;/strong&gt; in his tracks the first time they met. But in this short about the power of friendship and familiarity, Andy explains that Kohn’s voice isn't the most striking thing about him at all.&lt;/p&gt;&lt;div class="feedflare"&gt; &lt;a href="http://feeds.wnyc.org/~ff/radiolab?a=ccTEH7U6xNQ:kikjPfMtw0A:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/radiolab?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.wnyc.org/~ff/radiolab?a=ccTEH7U6xNQ:kikjPfMtw0A:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/radiolab?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/radiolab/~4/ccTEH7U6xNQ" height="1" width="1"/&gt;</description>
+      <pubDate>Tue, 18 Oct 2011 19:00:00 -0400</pubDate>
+      <guid isPermaLink="false">http://www.radiolab.org/series/podcasts/</guid>
+      <category>music</category>
+      <category>neuroscience</category>
+      <category>shorts</category>
+      <media:content url="http://feeds.wnyc.org/~r/radiolab/~5/Sa4LEj21ILQ/radiolab_podcast11slow.mp3" width="55" rel="list_image" height="55" />
+      <media:content url="http://media40.wnyc.net/media/photologue/photos/cache/KOHN_RLPHOTO_onethirty_square.jpg" width="130" rel="detail_image" height="130" />
+      <media:content url="http://media40.wnyc.net/media/photologue/photos/cache/KOHN_RLPHOTO_threehundred_square.jpg" width="300" rel="full_image" height="300" />
+      <author>listenerservices@wnyc.org (Jad Abumrad &amp; Robert Krulwich)</author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle> Kohn Ashmore’s voice is arresting. It stopped his friend Andy Mills in his tracks the first time they met. But in this short about the power of friendship and familiarity, Andy explains that Kohn’s voice isn't the most striking thing about him at all. </itunes:subtitle>
+      <itunes:author>Jad Abumrad &amp; Robert Krulwich</itunes:author>
+      <itunes:summary> Kohn Ashmore’s voice is arresting. It stopped his friend Andy Mills in his tracks the first time they met. But in this short about the power of friendship and familiarity, Andy explains that Kohn’s voice isn't the most striking thing about him at all. </itunes:summary>
+      <itunes:keywords>Science,Technology,Philosophy,Education,radiolab,jad,abumrad,krulwich,Radio,Lab</itunes:keywords>
+      <feedburner:origLink>http://www.radiolab.org/blogs/radiolab-blog/2011/oct/18/slow/</feedburner:origLink>
+      <enclosure url="%%HOST%%/radioslow.mp3" length="0" type="audio/mpeg" />
+      <feedburner:origEnclosureLink>http://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab_podcast/radiolab_podcast11slow.mp3</feedburner:origEnclosureLink>
+    </item>
+
+    <item>
+      <title>Loops</title>
+      <link>%%HOST%%/testing/radioslow.html</link>
+      <description>&lt;p&gt;Our lives are filled with loops that hurt us, heal us, make us laugh, and, sometimes, leave us wanting more. This hour, Radiolab investigates the strange things that emerge when something happens, then  happens again, and  again, and again, and again, and again, and … well, again.&lt;/p&gt;&lt;div class="feedflare"&gt; &lt;a href="http://feeds.wnyc.org/~ff/radiolab?a=V2ebIdQon_o:VluFjAi8xgo:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/radiolab?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.wnyc.org/~ff/radiolab?a=V2ebIdQon_o:VluFjAi8xgo:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/radiolab?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/radiolab/~4/V2ebIdQon_o" height="1" width="1"/&gt;</description>
+      <pubDate>Tue, 04 Oct 2011 19:00:00 -0400</pubDate>
+      <guid isPermaLink="false">%%HOST%%/testing/radioslow.html</guid>
+      <media:content url="http://feeds.wnyc.org/~r/radiolab/~5/zmtag3eHaHo/radiolab100411.mp3" width="55" rel="list_image" height="55" />
+      <media:content url="http://media40.wnyc.net/media/photologue/photos/cache/train_loop_onethirty_square.jpg" width="130" rel="detail_image" height="130" />
+      <media:content url="http://media40.wnyc.net/media/photologue/photos/cache/train_loop_threehundred_square.jpg" width="300" rel="full_image" height="300" />
+      <author>listenerservices@wnyc.org (Jad Abumrad &amp; Robert Krulwich)</author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle> Our lives are filled with loops that hurt us, heal us, make us laugh, and, sometimes, leave us wanting more. This hour, Radiolab investigates the strange things that emerge when something happens, then happens again, and again, and again, and again, and </itunes:subtitle>
+      <itunes:author>Jad Abumrad &amp; Robert Krulwich</itunes:author>
+      <itunes:summary> Our lives are filled with loops that hurt us, heal us, make us laugh, and, sometimes, leave us wanting more. This hour, Radiolab investigates the strange things that emerge when something happens, then happens again, and again, and again, and again, and again, and … well, again. </itunes:summary>
+      <itunes:keywords>Science,Technology,Philosophy,Education,radiolab,jad,abumrad,krulwich,Radio,Lab</itunes:keywords>
+      <feedburner:origLink>http://www.radiolab.org/2011/oct/04/</feedburner:origLink>
+      <enclosure url="%%HOST%%/testing/radioslow.mp3" length="0" type="audio/mpeg" />
+      <feedburner:origEnclosureLink>http://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab/radiolab100411.mp3</feedburner:origEnclosureLink>
+    </item>
+
+    <item>
+      <title>Shorts: Loop the Loop</title>
+      <link>%%HOST%%/testing/radioloop.html</link>
+      <description>&lt;p&gt;For most of human history, flight was an impossible dream. In this short, the dizzying rise and fall of a pilot whose aeronautic feats changed aviation forever and turned chancy stunts into acrobatic mastery.&lt;/p&gt;&lt;div class="feedflare"&gt; &lt;a href="http://feeds.wnyc.org/~ff/radiolab?a=lkDQtjXeJZI:7rlLTVAevKs:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/radiolab?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.wnyc.org/~ff/radiolab?a=lkDQtjXeJZI:7rlLTVAevKs:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/radiolab?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/radiolab/~4/lkDQtjXeJZI" height="1" width="1"/&gt;</description>
+      <pubDate>Tue, 20 Sep 2011 19:10:00 -0400</pubDate>
+      <guid isPermaLink="false">%%HOST%%/testing/radioloop.html</guid>
+      <category>plane</category>
+      <category>shorts</category>
+      <media:content url="http://feeds.wnyc.org/~r/radiolab/~5/yi-5RyNSzF0/radiolab_podcast11beachey.mp3" width="55" rel="list_image" height="55" />
+      <media:content url="http://media40.wnyc.net/media/photologue/photos/cache/Lincoln_Beachey_onethirty_square.jpg" width="130" rel="detail_image" height="130" />
+      <media:content url="http://media40.wnyc.net/media/photologue/photos/cache/Lincoln_Beachey_threehundred_square.jpg" width="300" rel="full_image" height="300" />
+      <author>listenerservices@wnyc.org (Jad Abumrad &amp; Robert Krulwich)</author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle> For most of human history, flight was an impossible dream. In this short, the dizzying rise and fall of a pilot whose aeronautic feats changed aviation forever and turned chancy stunts into acrobatic mastery. </itunes:subtitle>
+      <itunes:author>Jad Abumrad &amp; Robert Krulwich</itunes:author>
+      <itunes:summary> For most of human history, flight was an impossible dream. In this short, the dizzying rise and fall of a pilot whose aeronautic feats changed aviation forever and turned chancy stunts into acrobatic mastery. </itunes:summary>
+      <itunes:keywords>Science,Technology,Philosophy,Education,radiolab,jad,abumrad,krulwich,Radio,Lab</itunes:keywords>
+      <feedburner:origLink>http://www.radiolab.org/blogs/radiolab-blog/2011/sep/20/loop-loop/</feedburner:origLink>
+      <enclosure url="%%HOST%%/testing/radioloop.mp3" length="0" type="audio/mpeg" />
+      <feedburner:origEnclosureLink>http://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab_podcast/radiolab_podcast11beachey.mp3</feedburner:origEnclosureLink>
+    </item>
+
+    <item>
+      <title>Shorts: Mapping Tic Tac Toe-dom </title>
+      <link>%%HOST%%/testing/radiotic.html</link>
+      <description>&lt;p&gt;Writer Ian Frazier made a startling discovery several years ago in eastern Siberia: no one he met there had ever heard of tic tac toe. In this short, Jad and Robert wonder how a game that seems carved into childhood DNA could be completely unknown in some parts of the world.&lt;/p&gt;&lt;div class="feedflare"&gt; &lt;a href="http://feeds.wnyc.org/~ff/radiolab?a=yTfLjf0ICw8:E22c8sPNIJY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/radiolab?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.wnyc.org/~ff/radiolab?a=yTfLjf0ICw8:E22c8sPNIJY:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/radiolab?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/radiolab/~4/yTfLjf0ICw8" height="1" width="1"/&gt;</description>
+      <pubDate>Tue, 06 Sep 2011 19:00:00 -0400</pubDate>
+      <guid isPermaLink="false">%%HOST%%/testing/radiotic.html</guid>
+      <category>games</category>
+      <category>shorts</category>
+      <media:content url="http://feeds.wnyc.org/~r/radiolab/~5/Igw2HfYjk3w/radiolab_podcast11tictac.mp3" width="55" rel="list_image" height="55" />
+      <media:content url="http://media40.wnyc.net/media/photologue/photos/cache/tictactoered_onethirty_square.jpg" width="130" rel="detail_image" height="130" />
+      <media:content url="http://media40.wnyc.net/media/photologue/photos/cache/tictactoered_threehundred_square.jpg" width="300" rel="full_image" height="300" />
+      <author>listenerservices@wnyc.org (Jad Abumrad &amp; Robert Krulwich)</author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle> Writer Ian Frazier made a startling discovery several years ago in eastern Siberia: no one he met there had ever heard of tic tac toe. In this short, Jad and Robert wonder how a game that seems carved into childhood DNA could be completely unknown in som</itunes:subtitle>
+      <itunes:author>Jad Abumrad &amp; Robert Krulwich</itunes:author>
+      <itunes:summary> Writer Ian Frazier made a startling discovery several years ago in eastern Siberia: no one he met there had ever heard of tic tac toe. In this short, Jad and Robert wonder how a game that seems carved into childhood DNA could be completely unknown in some parts of the world. </itunes:summary>
+      <itunes:keywords>Science,Technology,Philosophy,Education,radiolab,jad,abumrad,krulwich,Radio,Lab</itunes:keywords>
+      <feedburner:origLink>http://www.radiolab.org/blogs/radiolab-blog/2011/sep/06/three-row/</feedburner:origLink>
+      <enclosure url="%%HOST%%/testing/radiotic.mp3" length="0" type="audio/mpeg" />
+      <feedburner:origEnclosureLink>http://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab_podcast/radiolab_podcast11tictac.mp3</feedburner:origEnclosureLink>
+    </item>
+
+    <item>
+      <title>Games</title>
+      <link>%%HOST%%/testing/radiogames.html</link>
+      <description>&lt;p&gt;A good game--whether it's a pro football playoff, or a family showdown on the kitchen table--can make you feel, at least for a little while, like your whole life hangs in the balance. This hour of Radiolab, Jad and Robert wonder why we get so invested in something so trivial. What is it about games that make them feel so pivotal?&lt;/p&gt;&lt;div class="feedflare"&gt; &lt;a href="http://feeds.wnyc.org/~ff/radiolab?a=Hbt172hDInI:7KtG64Gpi-k:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/radiolab?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.wnyc.org/~ff/radiolab?a=Hbt172hDInI:7KtG64Gpi-k:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/radiolab?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/radiolab/~4/Hbt172hDInI" height="1" width="1"/&gt;</description>
+      <pubDate>Tue, 23 Aug 2011 19:00:00 -0400</pubDate>
+      <guid isPermaLink="false">%%HOST%%/testing/radiogames.html</guid>
+      <category>games</category>
+      <category>play</category>
+      <category>rules</category>
+      <category>sports</category>
+      <media:content url="http://feeds.wnyc.org/~r/radiolab/~5/EDnyn2kdUNw/radiolab082311.mp3" width="55" rel="list_image" height="55" />
+      <media:content url="http://media40.wnyc.net/media/photologue/photos/cache/basketball_hoop_onethirty_square.jpg" width="130" rel="detail_image" height="130" />
+      <media:content url="http://media40.wnyc.net/media/photologue/photos/cache/basketball_hoop_threehundred_square.jpg" width="300" rel="full_image" height="300" />
+      <author>listenerservices@wnyc.org (Jad Abumrad &amp; Robert Krulwich)</author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle> A good game--whether it's a pro football playoff, or a family showdown on the kitchen table--can make you feel, at least for a little while, like your whole life hangs in the balance. This hour of Radiolab, Jad and Robert wonder why we get so invested in</itunes:subtitle>
+      <itunes:author>Jad Abumrad &amp; Robert Krulwich</itunes:author>
+      <itunes:summary> A good game--whether it's a pro football playoff, or a family showdown on the kitchen table--can make you feel, at least for a little while, like your whole life hangs in the balance. This hour of Radiolab, Jad and Robert wonder why we get so invested in something so trivial. What is it about games that make them feel so pivotal? </itunes:summary>
+      <itunes:keywords>Science,Technology,Philosophy,Education,radiolab,jad,abumrad,krulwich,Radio,Lab</itunes:keywords>
+      <feedburner:origLink>http://www.radiolab.org/2011/aug/23/</feedburner:origLink>
+      <enclosure url="%%HOST%%/testing/radiogames.mp3" length="0" type="audio/mpeg" />
+      <feedburner:origEnclosureLink>http://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab/radiolab082311.mp3</feedburner:origEnclosureLink>
+    </item>
+
+    <copyright>© WNYC Radio</copyright>
+    <media:credit role="author">Jad Abumrad &amp; Robert Krulwich</media:credit>
+    <media:rating>nonadult</media:rating>
+
+  </channel>
+</rss>
