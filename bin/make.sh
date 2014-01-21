@@ -1,7 +1,6 @@
 #!/bin/bash
 
 cd `dirname $0`/..
-mkdir -p web
 
 for file in src/*.rss ; do
   echo $file
