@@ -25,10 +25,10 @@
 
     <item>
       <title>Wildfires, Cops, and Keggers</title>
-      <link>%%HOST%%/testing/freakowild.html</link>
+      <link>%%HOST%%/freakowild.html</link>
       <description>&lt;p&gt;On Election Day, most people focus on the obvious winners and losers -- that is, the candidates. But we went looking for some of the strange side effects that elections produce.&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/freakonomicsradio/~4/csxhUwzessw" height="1" width="1"/&gt;</description>
       <pubDate>Tue, 01 Nov 2011 21:36:42 -0400</pubDate>
-      <guid isPermaLink="false">%%HOST%%/testing/freakowild.html</guid>
+      <guid isPermaLink="false">%%HOST%%/freakowild.html</guid>
       <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Stephen J. Dubner</dc:creator>
       <media:content url="http://feedproxy.google.com/~r/freakonomicsradio/~5/n_LSZtYNMck/freakonomics_mppodcast110111.mp3" type="audio/mpeg" />
       <itunes:explicit>no</itunes:explicit>
@@ -37,16 +37,16 @@
       <itunes:summary> On Election Day, most people focus on the obvious winners and losers -- that is, the candidates. But we went looking for some of the strange side effects that elections produce. </itunes:summary>
       <itunes:keywords>freakonomics,wnyc,american,public,media,Stephen,Dubner,Steven,Levitt,public,radio,freakonomics,radio,new,york,public,radio,apm,wnyc,radio</itunes:keywords>
       <feedburner:origLink>http://www.wnyc.org/articles/freakonomics-podcast/2011/nov/01/wildfires-cops-and-keggers/</feedburner:origLink>
-      <enclosure url="%%HOST%%/test/data/freakowild.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="%%HOST%%/freakowild.mp3" length="0" type="audio/mpeg" />
       <feedburner:origEnclosureLink>http://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/freakonomics_mppodcast/freakonomics_mppodcast110111.mp3</feedburner:origEnclosureLink>
     </item>
 
     <item>
       <title>Misadventures in Baby-Making</title>
-      <link>%%HOST%%/testing/freakobaby.html</link>
+      <link>%%HOST%%/freakobaby.html</link>
       <description>We are constantly wowed by new technologies and policies meant to make childbirth better.</description>
       <pubDate>Tue, 25 Oct 2011 17:17:21 -0400</pubDate>
-      <guid isPermaLink="false">%%HOST%%/testing/freakobaby.html</guid>
+      <guid isPermaLink="false">%%HOST%%/freakobaby.html</guid>
       <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Stephen J.  Dubner</dc:creator>
       <media:content url="http://feedproxy.google.com/~r/freakonomicsradio/~5/UrDSHOUJbZY/freakonomics_podcast102611.mp3" type="audio/mpeg" />
       <itunes:explicit>no</itunes:explicit>
@@ -55,17 +55,17 @@
       <itunes:summary>We are constantly wowed by new technologies and policies meant to make childbirth better. But beware the unintended consequences.</itunes:summary>
       <itunes:keywords>freakonomics,wnyc,american,public,media,Stephen,Dubner,Steven,Levitt,public,radio,freakonomics,radio,new,york,public,radio,apm,wnyc,radio</itunes:keywords>
       <feedburner:origLink>http://www.wnyc.org/articles/freakonomics-podcast/2011/oct/25/misadventures-baby-making/</feedburner:origLink>
-      <enclosure url="%%HOST%%/test/data/freakobaby.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="%%HOST%%/freakobaby.mp3" length="0" type="audio/mpeg" />
       <feedburner:origEnclosureLink>http://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/freakonomics_podcast/freakonomics_podcast102611.mp3</feedburner:origEnclosureLink>
     </item>
 
 
     <item>
       <title>I Dream of Buffett</title>
-      <link>%%HOST%%/testing/freakobuffett.html</link>
+      <link>%%HOST%%/freakobuffett.html</link>
       <description>Warren Buffett is quite wealthy.</description>
       <pubDate>Tue, 18 Oct 2011 15:05:30 -0400</pubDate>
-      <guid isPermaLink="false">%%HOST%%/testing/freakobuffett.html</guid>
+      <guid isPermaLink="false">%%HOST%%/freakobuffett.html</guid>
       <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Stephen J. Dubner</dc:creator>
       <media:content url="http://feedproxy.google.com/~r/freakonomicsradio/~5/BCGfmY5TNLg/freakonomics_mppodcast101811.mp3" type="audio/mpeg" />
       <itunes:explicit>no</itunes:explicit>
@@ -74,8 +74,8 @@
       <itunes:summary>High-stakes testing has produced some rotten apples. But they can be caught.</itunes:summary>
       <itunes:keywords>freakonomics,wnyc,american,public,media,Stephen,Dubner,Steven,Levitt,public,radio,freakonomics,radio,new,york,public,radio,apm,wnyc,radio</itunes:keywords>
       <feedburner:origLink>http://www.wnyc.org/articles/freakonomics-podcast/2011/oct/18/those-cheating-teachers/</feedburner:origLink>
-      <enclosure url="%%HOST%%/test/data/freakobuffett.mp3" length="0" type="audio/mpeg" />
-      <feedburner:origEnclosureLink>%%HOST%%/test/data/freakobuffett.mp3</feedburner:origEnclosureLink>
+      <enclosure url="%%HOST%%/freakobuffett.mp3" length="0" type="audio/mpeg" />
+      <feedburner:origEnclosureLink>%%HOST%%/freakobuffett.mp3</feedburner:origEnclosureLink>
     </item>
 
     <copyright>(c) WNYC, APM and Dubner Productions</copyright>

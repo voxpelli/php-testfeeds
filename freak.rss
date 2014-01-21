@@ -35,7 +35,7 @@
       <link>$host/testing/freakobaby.html</link>
       <description>We are constantly wowed by new technologies and policies meant to make childbirth better.</description>
       <pubDate>Tue, 25 Oct 2011 17:17:21 -0400</pubDate>
-      <guid isPermaLink="false">%%HOST%%/localhost:3000/testing/freakobaby.html</guid>
+      <guid isPermaLink="false">%%HOST%%/freakobaby.html</guid>
       <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Stephen J.  Dubner</dc:creator>
       <media:content url="http://feedproxy.google.com/~r/freakonomicsradio/~5/UrDSHOUJbZY/freakonomics_podcast102611.mp3" type="audio/mpeg" />
       <itunes:explicit>no</itunes:explicit>
@@ -44,17 +44,17 @@
       <itunes:summary>We are constantly wowed by new technologies and policies meant to make childbirth better. But beware the unintended consequences.</itunes:summary>
       <itunes:keywords>freakonomics,wnyc,american,public,media,Stephen,Dubner,Steven,Levitt,public,radio,freakonomics,radio,new,york,public,radio,apm,wnyc,radio</itunes:keywords>
       <feedburner:origLink>http://www.wnyc.org/articles/freakonomics-podcast/2011/oct/25/misadventures-baby-making/</feedburner:origLink>
-      <enclosure url="%%HOST%%/test/data/freakobaby.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="%%HOST%%/freakobaby.mp3" length="0" type="audio/mpeg" />
       <feedburner:origEnclosureLink>http://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/freakonomics_podcast/freakonomics_podcast102611.mp3</feedburner:origEnclosureLink>
     </item>
 
 
     <item>
       <title>I Dream of Buffett</title>
-      <link>%%HOST%%/testing/freakobuffett.html</link>
+      <link>%%HOST%%/freakobuffett.html</link>
       <description>Warren Buffett is quite wealthy.</description>
       <pubDate>Tue, 18 Oct 2011 15:05:30 -0400</pubDate>
-      <guid isPermaLink="false">%%HOST%%/testing/freakobuffett.html</guid>
+      <guid isPermaLink="false">%%HOST%%/freakobuffett.html</guid>
       <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Stephen J. Dubner</dc:creator>
       <media:content url="http://feedproxy.google.com/~r/freakonomicsradio/~5/BCGfmY5TNLg/freakonomics_mppodcast101811.mp3" type="audio/mpeg" />
       <itunes:explicit>no</itunes:explicit>
@@ -63,16 +63,16 @@
       <itunes:summary>High-stakes testing has produced some rotten apples. But they can be caught.</itunes:summary>
       <itunes:keywords>freakonomics,wnyc,american,public,media,Stephen,Dubner,Steven,Levitt,public,radio,freakonomics,radio,new,york,public,radio,apm,wnyc,radio</itunes:keywords>
       <feedburner:origLink>http://www.wnyc.org/articles/freakonomics-podcast/2011/oct/18/those-cheating-teachers/</feedburner:origLink>
-      <enclosure url="%%HOST%%/test/data/freakobuffett.mp3" length="0" type="audio/mpeg" />
-      <feedburner:origEnclosureLink>%%HOST%%/testing/freakobuffett.mp3</feedburner:origEnclosureLink>
+      <enclosure url="%%HOST%%/freakobuffett.mp3" length="0" type="audio/mpeg" />
+      <feedburner:origEnclosureLink>%%HOST%%/freakobuffett.mp3</feedburner:origEnclosureLink>
     </item>
 
     <item>
       <title>Where Have All the Hitchhikers Gone?</title>
-      <link>%%HOST%%/testing/freakohitch.html</link>
+      <link>%%HOST%%/freakohitch.html</link>
       <description>Did we needlessly scare ourselves into ditching a good thing?</description>
       <pubDate>Mon, 10 Oct 2011 00:05:38 -0400</pubDate>
-      <guid isPermaLink="false">%%HOST%%/testing/freakohitch.html</guid>
+      <guid isPermaLink="false">%%HOST%%/freakohitch.html</guid>
       <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Stephen J. Dubner</dc:creator>
       <media:content url="http://feedproxy.google.com/~r/freakonomicsradio/~5/l7MP0YDp12k/freakonomics_podcast101111.mp3" type="audio/mpeg" />
       <itunes:explicit>no</itunes:explicit>
@@ -81,7 +81,7 @@
       <itunes:summary>Did we needlessly scare ourselves into ditching a good thing? And, with millions of cars driving around with no passengers, should we be rooting for a renaissance?</itunes:summary>
       <itunes:keywords>freakonomics,wnyc,american,public,media,Stephen,Dubner,Steven,Levitt,public,radio,freakonomics,radio,new,york,public,radio,apm,wnyc,radio</itunes:keywords>
       <feedburner:origLink>http://www.wnyc.org/articles/freakonomics-podcast/2011/oct/10/where-have-all-the-hitchhikers-gone/</feedburner:origLink>
-      <enclosure url="%%HOST%%/test/data/freakohitch.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="%%HOST%%/freakohitch.mp3" length="0" type="audio/mpeg" />
       <feedburner:origEnclosureLink>http://www.podtrac.com/pts/redirect.mp3/www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/freakonomics_podcast/freakonomics_podcast101111.mp3</feedburner:origEnclosureLink>
     </item>
 
