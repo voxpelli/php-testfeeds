@@ -6,4 +6,4 @@ done
 
 bakdir=/tmp/rssbak$$
 mkdir $bakdir
-mv -f $file $bakdir
+mv -f *.bak $bakdir
