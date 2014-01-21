@@ -32,7 +32,7 @@
 
     <item>
       <title>Misadventures in Baby-Making</title>
-      <link>$host/testing/freakobaby.html</link>
+      <link>%%HOST%%/testing/freakobaby.html</link>
       <description>We are constantly wowed by new technologies and policies meant to make childbirth better.</description>
       <pubDate>Tue, 25 Oct 2011 17:17:21 -0400</pubDate>
       <guid isPermaLink="false">%%HOST%%/freakobaby.html</guid>
