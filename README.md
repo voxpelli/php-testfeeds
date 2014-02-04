@@ -24,6 +24,6 @@ it will retain its title, pubDate, and other properties.
 
 Examples:
 
-* http://testdata.player.fm
+* http://testdata.player.fm/dynamic
 * http://testdata.player.fm/dynamic?interval=60 # posts change every 60 seconds
 * http://testdata.player.fm/dynamic?time=1391473816944 # time of latest post
