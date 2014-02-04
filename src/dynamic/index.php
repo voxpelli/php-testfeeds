@@ -104,7 +104,7 @@ function pubDate($index) {
     <description>It's been said this is the most sublime feed any human has ever beared witness to. Who am I to argue?</description>
     <language>en-us</language>
     <lastBuildDate><?= pubDate(0) ?></lastBuildDate>
-    <pubDate><?= pubDate(0) ?></lastBuildDate>
+    <pubDate><?= pubDate(0) ?></pubDate>
     <ttl>600</ttl>
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="<?= self_url() ?>" />
     <media:copyright>(c) Nuvomondo Ltd</media:copyright>
