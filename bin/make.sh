@@ -7,6 +7,9 @@ for file in src/*.rss ; do
   sed 's/%%HOST%%/http:\/\/testdata.player.fm/g' $file > web/`basename $file`
 done
 
+mkdir -p web/dynamic
+cp -r src/dynamic/* web/dynamic
+
 #bakdir=/tmp/rssbak$$
 #mkdir $bakdir
 #mv -f *.bak $bakdir
