@@ -128,14 +128,14 @@ function pubDate($index) {
         <language>en-us</language>
         <guid isPermaLink="false">http://testdata.player.fm/<?= guid($index) ?></guid>
         <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Humphrey B. Bear</dc:creator>
-        <media:content url="<?= guid($index) ?>.mp3" type="audio/mpeg" />
+        <media:content url="<?= mp3($index) ?>" type="audio/mpeg" />
         <ttl>600</ttl>
         <itunes:explicit>no</itunes:explicit>
         <itunes:subtitle>My reflections</itunes:subtitle>
         <itunes:author>Humphrey B. Bear</itunes:author>
         <itunes:summary>About <?= title($index) ?></itunes:summary>
         <itunes:keywords><?= keywords($index) ?></itunes:keywords>
-        <enclosure url="http://testdata.player.fm/<?= guid($index) ?>.mp3" length="0" type="audio/mpeg" />
+        <enclosure url="http://testdata.player.fm/<?= mp3($index) ?>" type="audio/mpeg" />
       </item>
 
     <? } ?>
