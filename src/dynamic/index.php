@@ -135,7 +135,7 @@ function pubDate($index) {
         <itunes:author>Humphrey B. Bear</itunes:author>
         <itunes:summary>About <?= title($index) ?></itunes:summary>
         <itunes:keywords><?= keywords($index) ?></itunes:keywords>
-        <enclosure url="http://testdata.player.fm/<?= mp3($index) ?>" type="audio/mpeg" />
+        <enclosure url="<?= mp3($index) ?>" type="audio/mpeg" />
       </item>
 
     <? } ?>
