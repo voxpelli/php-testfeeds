@@ -2,13 +2,13 @@
 
 cd `dirname $0`/..
 
-for file in src/*.rss ; do
-  echo $file
-  sed 's/%%HOST%%/http:\/\/testdata.player.fm/g' $file > web/`basename $file`
-done
+#for file in src/*.rss ; do
+  #echo $file
+  #sed 's/%%HOST%%/http:\/\/testdata.player.fm/g' $file > web/`basename $file`
+#done
 
-mkdir -p web/dynamic
-cp -r src/dynamic/* web/dynamic
+mkdir -p web
+rsync -avz --delete --delete-excluded src/* web/
 
 #bakdir=/tmp/rssbak$$
 #mkdir $bakdir

@@ -61,10 +61,11 @@ function sample($array) {
   return $array[array_rand($array)];
 }
 
-function title($index) {
+function title($index, $ucfirst="") {
   global $adjectives, $animals, $countries;
   srand(post_time($index));
-  return sprintf("%s %s in %s", sample($adjectives), sample($animals), sample($countries));
+  $title = sprintf("%s %s in %s", sample($adjectives), sample($animals), sample($countries));
+  return $ucfirst ? ucfirst($title) : $title;
 }
 
 function mp3($index) {
@@ -121,7 +122,7 @@ function pubDate($index) {
     <? for ($index = 0; $index < 5; $index++) { ?>
 
       <item>
-        <title><?= title($index) ?></title>
+        <title><?= title($index, true) ?></title>
         <link>http://testdata.player.fm/dynamic/<?= guid($index) ?></link>
         <description>My reflections on <?= title($index) ?></description>
         <pubDate><?= pubDate($index) ?></pubDate>
