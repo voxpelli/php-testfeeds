@@ -9,7 +9,7 @@ function limit($min, $val, $max) {
 }
 
 $file_id = preg_replace("/[^a-zA-Z0-9]+/", "", get('id', 'freakowild'));
-$file = './files/media/' . $file_id . '.mp3';
+$file = './media/' . $file_id . '.mp3';
 $fp = fopen($file, 'rb');
 
 $type_spec = get('type', 'true');
