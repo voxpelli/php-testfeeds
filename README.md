@@ -28,7 +28,8 @@ File Serving
 ============
 
 File serving example:
-  * http://testdata.player.fm/file.php?id=freakowild&type=true&length=true&prepause=2&postpause=5
+
+> http://testdata.player.fm/file.php?id=freakowild&type=true&length=true&prepause=2&postpause=5
 
 * ID (default: freakowild) - mp3 filename (see git repo for options)
 * type (default: true) - the response content header you want. "true" means guess actual type, "false" means no type or server's default.
