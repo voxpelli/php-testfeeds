@@ -30,11 +30,11 @@ File Serving
 File serving example:
   * http://testdata.player.fm/file.php?id=freakowild&type=true&length=true&prepause=2&postpause=5
 
-  ID (default: freakowild) - mp3 filename (see git repo for options)
-  type (default: true) - the response content header you want. "true" means guess actual type, "false" means no type or server's default.
-  length (default: true) - the response length header you want. "true" means guess actual length, "false" means no length or server's default.
-  prepause (default: 0) - a delay before sending
-  postpause (default: 0) - a delay after sending
+* ID (default: freakowild) - mp3 filename (see git repo for options)
+* type (default: true) - the response content header you want. "true" means guess actual type, "false" means no type or server's default.
+* length (default: true) - the response length header you want. "true" means guess actual length, "false" means no length or server's default.
+* prepause (default: 0) - a delay before sending
+* postpause (default: 0) - a delay after sending
 
 License
 =======
