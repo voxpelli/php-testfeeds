@@ -37,16 +37,15 @@ function sample($array) {
   #return $index;
 }
 
-function title($index, $ucfirst="") {
+function phrase($index) {
   global $adjectives, $animals, $countries;
   #mt_srand(post_time($index));
   #Random::seed(post_time($index));
-  $title = sprintf("%s %s in %s", sample($adjectives), sample($animals), sample($countries));
-  return $ucfirst ? ucfirst($title) : $title;
+  return sprintf("%s %s in %s", sample($adjectives), sample($animals), sample($countries));
 }
 
-function mp3($index) {
-  $query = preg_replace('/\s+/', '+', title($index));
+function mp3($title) {
+  $query = preg_replace('/\s+/', '+', $title);
   return "http://tts-api.com/tts.mp3?q=" . $query;
 }
 
@@ -80,7 +79,7 @@ date_default_timezone_set('UTC');
 Random::seed($latest_time);
 
 ##############################################################################
-# Initial contnet
+# Initial content
 ##############################################################################
 
 header("Content-Type: application/rss+xml");
@@ -123,9 +122,9 @@ END;
       <!-- Item <?= $index ?> -->
 
       <item>
-        <title><?= title($index, true) ?></title>
+        <title><?= ucfirst($title = phrase($index, true)) ?></title>
         <link>http://<?= $_SERVER['HTTP_HOST'] ?>/dynamic/<?= guid($index) ?></link>
-        <description>My reflections on <?= title($index) ?></description>
+        <description>Comparing <?= lcfirst($title) ?> to <?= phrase($index) ?></description>
         <pubDate><?= pubDate($index) ?></pubDate>
         <language>en-us</language>
         <guid isPermaLink="false">http://<?= $_SERVER['HTTP_HOST'] ?>/<?= guid($index) ?></guid>
@@ -135,9 +134,9 @@ END;
         <itunes:explicit>no</itunes:explicit>
         <itunes:subtitle>My reflections</itunes:subtitle>
         <itunes:author>Humphrey B. Bear</itunes:author>
-        <itunes:summary>About <?= title($index) ?></itunes:summary>
+        <itunes:summary>About <?= $title ?></itunes:summary>
         <itunes:keywords><?= keywords($index) ?></itunes:keywords>
-        <enclosure url="<?= mp3($index) ?>" type="audio/mpeg" />
+        <enclosure url="<?= mp3($title) ?>" type="audio/mpeg" />
       </item>
 
     <? } ?>
