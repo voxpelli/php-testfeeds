@@ -74,7 +74,7 @@ function pubDate($index) {
   return date('D, d M Y H:i:s O', post_time($index));
 }
 
-Random::seed(post_time($index));
+Random::seed($latest_time);
 
 ?>
 
