@@ -1,19 +1,15 @@
 <?
 
+##############################################################################
+# Requires
+##############################################################################
+
 require_once 'words.php';
 require_once 'random.php';
 
-header("Content-Type: application/rss+xml");
-echo <<<END
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" media="screen"
-  href="/~d/styles/rss2enclosuresfull.xsl"?><?xml-stylesheet type="text/css"
-  media="screen"
-  href="feed.css"?>
-END;
-
-$interval = (!isset($_GET['interval']) || empty($_GET['interval']) ? 10 : $_GET['interval']);
-$latest_time = (!isset($_GET['time']) || empty($_GET['time']) ? time() : $_GET['time']); # time of latest post
+##############################################################################
+# Functions
+##############################################################################
 
 function toBase($num) { return base_convert($num, 10, 36); }
 function to10( $num) { return base_convert($num, 36, 10); }
@@ -74,7 +70,27 @@ function pubDate($index) {
   return date('D, d M Y H:i:s O', post_time($index));
 }
 
+##############################################################################
+# Init
+##############################################################################
+
+$interval = (!isset($_GET['interval']) || empty($_GET['interval']) ? 10 : $_GET['interval']);
+$latest_time = (!isset($_GET['time']) || empty($_GET['time']) ? time() : $_GET['time']); # time of latest post
+date_default_timezone_set('UTC');
 Random::seed($latest_time);
+
+##############################################################################
+# Initial contnet
+##############################################################################
+
+header("Content-Type: application/rss+xml");
+echo <<<END
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen"
+  href="/~d/styles/rss2enclosuresfull.xsl"?><?xml-stylesheet type="text/css"
+  media="screen"
+  href="feed.css"?>
+END;
 
 ?>
 
@@ -102,9 +118,9 @@ Random::seed($latest_time);
     <itunes:subtitle>Really quite an astonishing contribution to humanity and the finer arts</itunes:subtitle>
     <itunes:category text="Society &amp; Culture" />
 
-    <? for ($index = 0; $index < 5; $index++) { ?>
+    <? for ($index = 1; $index <= 5; $index++) { ?>
       
-      <!-- Item <?= $index ?> <?= $latest_time ?> <?= post_time($index) ?> -->
+      <!-- Item <?= $index ?> -->
 
       <item>
         <title><?= title($index, true) ?></title>
