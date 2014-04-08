@@ -38,8 +38,8 @@ File serving example:
 ~10MB mp3
 > http://testdata.player.fm/file.php?name=meta&type=audio/mpeg&length=123456
 
-~10MB mp3
-> http://testdata.player.fm/file.php?name=meta&type=audio/mpeg&length=123456
+~10MB mp3 with variable bitrate
+> http://testdata.player.fm/file.php?name=metavbr&type=audio/mpeg&length=123456
 
 ~tiny mp3
 > http://testdata.player.fm/file.php?name=freakowild&type=audio/mpeg&length=123456
