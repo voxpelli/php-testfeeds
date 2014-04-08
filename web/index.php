@@ -13,32 +13,9 @@ END;
 
 $interval = (!isset($_GET['interval']) || empty($_GET['interval']) ? 10 : $_GET['interval']);
 $latest_time = (!isset($_GET['time']) || empty($_GET['time']) ? time() : $_GET['time']); # time of latest post
-$base='23456789abcdefghjkmnpqrstvwxyz';
 
-function toBase($num) {
-  global $base;
-  $b = strlen($base);
-  $r = $num  % $b ;
-  $res = $base[$r];
-  $q = floor($num/$b);
-  while ($q) {
-    $r = $q % $b;
-    $q =floor($q/$b);
-    $res = $base[$r].$res;
-  }
-  return $res;
-}
-
-function to10( $num) {
-  global $base;
-  $b = strlen($base);
-  $limit = strlen($num);
-  $res=strpos($base,$num[0]);
-  for($i=1;$i<$limit;$i++) {
-    $res = $b * $res + strpos($base,$num[$i]);
-  }
-  return $res;
-}
+function toBase($num) { return base_convert($num, 10, 36); }
+function to10( $num) { return base_convert($num, 36, 10); }
 
 function post_time($index) {
   global $interval, $latest_time;
@@ -120,14 +97,16 @@ function pubDate($index) {
     <itunes:category text="Society &amp; Culture" />
 
     <? for ($index = 0; $index < 5; $index++) { ?>
+      
+      <!-- Item <?= $index ?> <?= $latest_time ?> <?= post_time($index) ?> -->
 
       <item>
         <title><?= title($index, true) ?></title>
-        <link>http://testdata.player.fm/dynamic/<?= guid($index) ?></link>
+        <link>http://<?= $_SERVER['HTTP_HOST'] ?>/dynamic/<?= guid($index) ?></link>
         <description>My reflections on <?= title($index) ?></description>
         <pubDate><?= pubDate($index) ?></pubDate>
         <language>en-us</language>
-        <guid isPermaLink="false">http://testdata.player.fm/<?= guid($index) ?></guid>
+        <guid isPermaLink="false">http://<?= $_SERVER['HTTP_HOST'] ?>/<?= guid($index) ?></guid>
         <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Humphrey B. Bear</dc:creator>
         <media:content url="<?= mp3($index) ?>" type="audio/mpeg" />
         <ttl>600</ttl>
