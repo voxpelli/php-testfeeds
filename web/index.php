@@ -12,8 +12,6 @@ echo <<<END
   href="feed.css"?>
 END;
 
-Random::seed(post_time($index));
-
 $interval = (!isset($_GET['interval']) || empty($_GET['interval']) ? 10 : $_GET['interval']);
 $latest_time = (!isset($_GET['time']) || empty($_GET['time']) ? time() : $_GET['time']); # time of latest post
 
@@ -75,6 +73,8 @@ function self_url() {
 function pubDate($index) {
   return date('D, d M Y H:i:s O', post_time($index));
 }
+
+Random::seed(post_time($index));
 
 ?>
 
