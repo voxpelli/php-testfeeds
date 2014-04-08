@@ -1,6 +1,7 @@
 <?
 
 require_once 'words.php';
+require_once 'random.php';
 
 header("Content-Type: application/rss+xml");
 echo <<<END
@@ -10,6 +11,8 @@ echo <<<END
   media="screen"
   href="feed.css"?>
 END;
+
+Random::seed(post_time($index));
 
 $interval = (!isset($_GET['interval']) || empty($_GET['interval']) ? 10 : $_GET['interval']);
 $latest_time = (!isset($_GET['time']) || empty($_GET['time']) ? time() : $_GET['time']); # time of latest post
@@ -35,12 +38,15 @@ function guid($index) {
 }
 
 function sample($array) {
-  return $array[array_rand($array)];
+  $index = Random::num(0, count($array)-1);
+  return $array[$index];
+  #return $index;
 }
 
 function title($index, $ucfirst="") {
   global $adjectives, $animals, $countries;
-  srand(post_time($index));
+  #mt_srand(post_time($index));
+  #Random::seed(post_time($index));
   $title = sprintf("%s %s in %s", sample($adjectives), sample($animals), sample($countries));
   return $ucfirst ? ucfirst($title) : $title;
 }
