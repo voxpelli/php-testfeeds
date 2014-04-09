@@ -74,7 +74,7 @@ function pubDate($index) {
 ##############################################################################
 
 $interval = (!isset($_GET['interval']) || empty($_GET['interval']) ? 10 : $_GET['interval']);
-$latest_time = (!isset($_GET['time']) || empty($_GET['time']) ? time() : $_GET['time']); # time of latest post
+$latest_time = (!isset($_GET['time']) ? time() : $_GET['time']); # time of latest post
 date_default_timezone_set('UTC');
 Random::seed($latest_time);
 
