@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+	<channel>
+		<title>IBCラジオ「イヤー、マイッタマイッタ」 … by IBC</title>
+		<link>http://podcast.ibc.co.jp/maitta/</link>
+		<language>ja</language>
+		<copyright>IBC岩手放送</copyright>
+		<description>ＩＢＣの名物コンビ水越アナと大塚アナが、リスナーからの投稿「まいった話」を、独特のテイストでゆる～く紹介。</description>
+		<itunes:subtitle>ＩＢＣの名物コンビ水越アナと大塚アナが、リスナーからの投稿「まいった話」を、独特のテイストでゆる～く紹介。</itunes:subtitle>
+		<itunes:author>IBC岩手放送</itunes:author>
+		<itunes:summary>ＩＢＣの名物コンビ水越アナと大塚アナが、リスナーからの投稿「まいった話」を、独特のテイストでゆる～く紹介。</itunes:summary>
+		<itunes:owner>
+			<itunes:name>IBC岩手放送</itunes:name>
+			<itunes:email>webmaster@ibc.co.jp</itunes:email>
+		</itunes:owner>
+		<itunes:image href="http://podcast.ibc.co.jp/itunes/itunes_maitta_image.jpg" />
+		<itunes:category text="Comedy"/>
+			<item>
+				<title>第427回放送＜お富の相談室＞</title>
+				<link>http://podcast.ibc.co.jp/maitta/index.php?itemid=13324</link>
+				<itunes:subtitle>今週のお悩みは「結納金の使い方を教えてください」です。【音声ファイルをダウンロード】3/13放送分</itunes:subtitle>
+				<itunes:author>IBC岩手放送</itunes:author>
+				<itunes:summary>今週のお悩みは「結納金の使い方を教えてください」です。【音声ファイルをダウンロード】3/13放送分</itunes:summary>
+				<description>今週のお悩みは「結納金の使い方を教えてください」です。【音声ファイルをダウンロード】3/13放送分</description>
+				<enclosure url="http://podcast.ibc.co.jp/kurenainobuta/media/27/otomi20140313.mp3" length="8037877" type="audio/mpeg" />
+				<guid>http://podcast.ibc.co.jp/kurenainobuta/media/27/otomi20140313.mp3</guid>
+				<pubDate>Thu, 27 Mar 2014 16:47:02 +0900</pubDate>
+				<itunes:keywords>IBC,IBC岩手放送,岩手,いわて,</itunes:keywords>
+			</item>
+			<item>
+				<title>第427回放送</title>
+				<link>http://podcast.ibc.co.jp/maitta/index.php?itemid=13323</link>
+				<itunes:subtitle>それは先週の水曜日、仕事で使っているトラックが車検のため、遅めの冬休みをもらい１０年ぶりの一人旅を決行…【音声ファイルをダウンロード】3/13放送分</itunes:subtitle>
+				<itunes:author>IBC岩手放送</itunes:author>
+				<itunes:summary>それは先週の水曜日、仕事で使っているトラックが車検のため、遅めの冬休みをもらい１０年ぶりの一人旅を決行…【音声ファイルをダウンロード】3/13放送分</itunes:summary>
+				<description>それは先週の水曜日、仕事で使っているトラックが車検のため、遅めの冬休みをもらい１０年ぶりの一人旅を決行…【音声ファイルをダウンロード】3/13放送分</description>
+				<enclosure url="http://podcast.ibc.co.jp/kurenainobuta/media/27/maitta20140313.mp3" length="7059863" type="audio/mpeg" />
+				<guid>http://podcast.ibc.co.jp/kurenainobuta/media/27/maitta20140313.mp3</guid>
+				<pubDate>Thu, 27 Mar 2014 16:46:54 +0900</pubDate>
+				<itunes:keywords>IBC,IBC岩手放送,岩手,いわて,</itunes:keywords>
+			</item>
+			<item>
+				<title>第426回放送＜お富の相談室＞</title>
+				<link>http://podcast.ibc.co.jp/maitta/index.php?itemid=13295</link>
+				<itunes:subtitle>今週のお悩みは「皆様は仏壇のお線香を1回に何本炊きますか。」です。【音声ファイルをダウンロード】3/6放送分</itunes:subtitle>
+				<itunes:author>IBC岩手放送</itunes:author>
+				<itunes:summary>今週のお悩みは「皆様は仏壇のお線香を1回に何本炊きますか。」です。【音声ファイルをダウンロード】3/6放送分</itunes:summary>
+				<description>今週のお悩みは「皆様は仏壇のお線香を1回に何本炊きますか。」です。【音声ファイルをダウンロード】3/6放送分</description>
+				<enclosure url="http://podcast.ibc.co.jp/kurenainobuta/media/27/otomi20140306.mp3" length="5826872" type="audio/mpeg" />
+				<guid>http://podcast.ibc.co.jp/kurenainobuta/media/27/otomi20140306.mp3</guid>
+				<pubDate>Tue, 18 Mar 2014 09:30:00 +0900</pubDate>
+				<itunes:keywords>IBC,IBC岩手放送,岩手,いわて,</itunes:keywords>
+			</item>
+	</channel>
+	</rss>
