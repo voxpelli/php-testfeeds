@@ -39,6 +39,7 @@ function sample($array) {
 
 function phrase($index) {
   global $adjectives, $animals, $countries;
+  Random::seed(post_time($index));
   #mt_srand(post_time($index));
   #Random::seed(post_time($index));
   return sprintf("%s %s in %s", sample($adjectives), sample($animals), sample($countries));
@@ -75,8 +76,8 @@ function pubDate($index) {
 
 $interval = (!isset($_GET['interval']) || empty($_GET['interval']) ? 10 : $_GET['interval']);
 $latest_time = (!isset($_GET['time']) ? time() : $_GET['time']); # time of latest post
+$latest_time = floor($latest_time/$interval) * $interval;
 date_default_timezone_set('UTC');
-Random::seed($latest_time);
 
 ##############################################################################
 # Initial content
@@ -124,7 +125,7 @@ END;
       <item>
         <title><?= ucfirst($title = phrase($index, true)) ?></title>
         <link>http://<?= $_SERVER['HTTP_HOST'] ?>/dynamic/<?= guid($index) ?></link>
-        <description>Comparing <?= lcfirst($title) ?> to <?= phrase($index) ?></description>
+        <description>Comparing <?= phrase($index) ?> to <?= phrase($index+1) ?></description>
         <pubDate><?= pubDate($index) ?></pubDate>
         <language>en-us</language>
         <guid isPermaLink="false">http://<?= $_SERVER['HTTP_HOST'] ?>/<?= guid($index) ?></guid>
