@@ -90,9 +90,13 @@ function get($param_key, $options=array()) {
 $interval = get('interval', ['default'=>10]);
 $latest_time = get('time', ['default'=>time()]); # time of latest post
 $title_prefix = get('title_prefix', ['right_padding_if_present' => ' ']);
-$explicit = filter_var(get('explicit', ['default' => 'false']), FILTER_VALIDATE_BOOLEAN);
-$explicit_string = $explicit ? 'yes' : 'no';
+$feed_image = get('feed_image'); // e.g. http://www.unity.fm/rssfeeds/ACourseInMiracles
+$feed_img = get('feed_img'); // e.g. http://feeds.feedburner.com/takeawaymoviedate
 $description_prefix = get('description_prefix', ['right_padding_if_present' => ' ']);
+$explicit = filter_var(get('explicit', ['default' => 'false']), FILTER_VALIDATE_BOOLEAN);
+$itunes = filter_var(get('itunes', ['default' => 'true']), FILTER_VALIDATE_BOOLEAN);
+
+$explicit_string = $explicit ? 'yes' : 'no';
 $latest_time = floor($latest_time/$interval) * $interval;
 date_default_timezone_set('UTC');
 
@@ -128,12 +132,21 @@ END;
     <media:thumbnail url="<?= image(-1) ?>" />
     <media:keywords><?= keywords(-1) ?></media:keywords>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Society &amp; Culture</media:category>
+<? if ($feed_img) { ?>
+    <img src="<?= image(-1) ?>">
+<? } ?>
+<? if ($feed_image) { ?>
+    <image>
+      <url><?= image(-1) ?></url>
+    </image>
+<? } ?>
+<? if ($itunes ) { ?>
     <itunes:author>Stephen J. Dubner and Sooty the Teddy Bear</itunes:author>
     <itunes:explicit><?= $explicit_string ?></itunes:explicit>
     <itunes:image href="<?= image(-1) ?>" />
     <itunes:keywords><?= keywords(-1) ?></itunes:keywords>
     <itunes:subtitle>Really quite an astonishing contribution to humanity and the finer arts</itunes:subtitle>
-    <itunes:category text="Society &amp; Culture" />
+    <itunes:category text="Society &amp; Culture" /><? } ?>
 
     <? for ($index = 1; $index <= 5; $index++) { ?>
       
@@ -149,12 +162,14 @@ END;
         <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Humphrey B. Bear</dc:creator>
         <media:content url="<?= mp3($index) ?>" type="audio/mpeg" />
         <ttl>600</ttl>
+        <enclosure url="<?= mp3($title) ?>" type="audio/mpeg" />
+<? if ($itunes ) { ?>
         <itunes:explicit><?= $explicit_string ?></itunes:explicit>
         <itunes:subtitle>My reflections</itunes:subtitle>
         <itunes:author>Humphrey B. Bear</itunes:author>
         <itunes:summary>About <?= $title ?></itunes:summary>
         <itunes:keywords><?= keywords($index) ?></itunes:keywords>
-        <enclosure url="<?= mp3($title) ?>" type="audio/mpeg" />
+<? } ?>
       </item>
 
     <? } ?>
