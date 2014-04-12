@@ -63,7 +63,7 @@ function self_url() {
   $url  = @( $_SERVER["HTTPS"] != 'on' ) ? 'http://'.$_SERVER["SERVER_NAME"] :  'https://'.$_SERVER["SERVER_NAME"];
   $url .= ( $_SERVER["SERVER_PORT"] !== "80" ) ? ":".$_SERVER["SERVER_PORT"] : "";
   $url .= $_SERVER["REQUEST_URI"];
-  return $url;
+  return urlencode($url);
 }
 
 function pubDate($index) {
@@ -74,8 +74,25 @@ function pubDate($index) {
 # Init
 ##############################################################################
 
-$interval = (!isset($_GET['interval']) || empty($_GET['interval']) ? 10 : $_GET['interval']);
-$latest_time = (!isset($_GET['time']) ? time() : $_GET['time']); # time of latest post
+function get($param_key, $options=array()) {
+  $options = array_merge([
+    'default' => '',
+    'left_padding' => '',
+    'right_padding' => '',
+    'right_padding_if_present' => '',
+  ], $options);
+  $val = isset($_GET[$param_key]) ? $_GET[$param_key] : $options['default'];
+  $val = $options['left_padding'] . $val . $options['right_padding'];
+  $val = $val . (strlen($val) > 0 ? $options['right_padding_if_present'] : '');
+  return $val;
+}
+
+$interval = get('interval', ['default'=>10]);
+$latest_time = get('time', ['default'=>time()]); # time of latest post
+$title_prefix = get('title_prefix', ['right_padding_if_present' => ' ']);
+$explicit = filter_var(get('explicit', ['default' => 'false']), FILTER_VALIDATE_BOOLEAN);
+$explicit_string = $explicit ? 'yes' : 'no';
+$description_prefix = get('description_prefix', ['right_padding_if_present' => ' ']);
 $latest_time = floor($latest_time/$interval) * $interval;
 date_default_timezone_set('UTC');
 
@@ -112,7 +129,7 @@ END;
     <media:keywords><?= keywords(-1) ?></media:keywords>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Society &amp; Culture</media:category>
     <itunes:author>Stephen J. Dubner and Sooty the Teddy Bear</itunes:author>
-    <itunes:explicit>no</itunes:explicit>
+    <itunes:explicit><?= $explicit_string ?></itunes:explicit>
     <itunes:image href="<?= image(-1) ?>" />
     <itunes:keywords><?= keywords(-1) ?></itunes:keywords>
     <itunes:subtitle>Really quite an astonishing contribution to humanity and the finer arts</itunes:subtitle>
@@ -123,16 +140,16 @@ END;
       <!-- Item <?= $index ?> -->
 
       <item>
-        <title><?= ucfirst($title = phrase($index, true)) ?></title>
+        <title><?= $title_prefix ?><?= ucfirst($title = phrase($index, true)) ?></title>
         <link>http://<?= $_SERVER['HTTP_HOST'] ?>/dynamic/<?= guid($index) ?></link>
-        <description>Comparing <?= phrase($index) ?> to <?= phrase($index+1) ?></description>
+        <description><?= $description_prefix ?>Comparing <?= phrase($index) ?> to <?= phrase($index+1) ?></description>
         <pubDate><?= pubDate($index) ?></pubDate>
         <language>en-us</language>
         <guid isPermaLink="false">http://<?= $_SERVER['HTTP_HOST'] ?>/<?= guid($index) ?></guid>
         <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Humphrey B. Bear</dc:creator>
         <media:content url="<?= mp3($index) ?>" type="audio/mpeg" />
         <ttl>600</ttl>
-        <itunes:explicit>no</itunes:explicit>
+        <itunes:explicit><?= $explicit_string ?></itunes:explicit>
         <itunes:subtitle>My reflections</itunes:subtitle>
         <itunes:author>Humphrey B. Bear</itunes:author>
         <itunes:summary>About <?= $title ?></itunes:summary>
