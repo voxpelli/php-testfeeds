@@ -26,7 +26,7 @@ END;
   <channel>
 
     <title><?= $feed_title ?></title>
-    <link><?= self_url() ?></link>
+    <link>http://player.fm/home</link>
     <description>It's been said this is the most sublime feed any human has ever beared witness to. Who am I to argue?</description>
     <language>en-us</language>
     <lastBuildDate><?= pubDate(0) ?></lastBuildDate>
@@ -47,9 +47,9 @@ END;
 <? } ?>
 <? if ($itunes ) { ?>
     <itunes:author>Stephen J. Dubner and Sooty the Teddy Bear</itunes:author>
-    <itunes:explicit><?= $explicit_string ?></itunes:explicit>
+    <itunes:explicit>no</itunes:explicit>
     <itunes:image href="<?= image(-1) ?>" />
-    <itunes:keywords><?= keywords(-1) ?></itunes:keywords>
+    <itunes:keywords>comedy, drama, tokyo, politics</itunes:keywords>
     <itunes:subtitle>Really quite an astonishing contribution to humanity and the finer arts</itunes:subtitle>
     <itunes:category text="Society &amp; Culture" /><? } ?>
 
