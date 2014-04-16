@@ -8,8 +8,8 @@ function limit($min, $val, $max) {
   return max($min, min($val, $max));
 }
 
-$file_id = preg_replace("/[^a-zA-Z0-9]+/", "", get('id', 'freakowild'));
-$file = './media/' . $file_id . '.mp3';
+$name = preg_replace("/[^a-zA-Z0-9.]+/", "", get('name', 'freakowild'));
+$file = './media/' . $name;
 $fp = fopen($file, 'rb');
 
 $type_spec = get('type', 'true');
