@@ -5,6 +5,7 @@
 ##############################################################################
 
 // generic libs
+require_once 'utils.php';
 require_once 'random.php';
 require_once 'words.php';
 

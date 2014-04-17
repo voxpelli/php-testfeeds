@@ -3,9 +3,6 @@
 # Functions
 ##############################################################################
 
-function toBase($num) { return base_convert($num, 10, 36); }
-function to10( $num) { return base_convert($num, 36, 10); }
-
 function post_time($index) {
   global $interval, $latest_time;
   $time = $latest_time - $index * $interval;
