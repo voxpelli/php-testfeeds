@@ -2,7 +2,7 @@
 
 require_once 'utils.php';
 
-global $etag, $name;
+global $etag, $last_modified_time, $formatted_last_modified_time, $name;
 
 function server($key, $default=null) {
   return isset($_SERVER[$key]) ? $_SERVER[$key] : $default;
@@ -18,7 +18,7 @@ function limit($min, $val, $max) {
 
 function response_headers() {
 
-  global $etag, $name;
+  global $etag, $last_modified_time, $formatted_last_modified_time, $name;
   $etag_spec = get('etag', sha1($name));
   if ($etag_spec!='_') {
     $etag = '"' . $etag_spec . '"';
@@ -30,7 +30,8 @@ function response_headers() {
   if ($epoch_secs!='_') {
     $last_modified_time = new DateTime("@$epoch_secs");
     $time_format = 'D, d M Y H:i:s O';
-    header('Last-Modified: ' . $last_modified_time->format($time_format));
+    $formatted_last_modified_time = $last_modified_time->format($time_format);
+    header('Last-Modified: ' . $formatted_last_modified_time);
   }
   return;
 
@@ -71,7 +72,9 @@ response_headers();
 
 sleep($pre_delay);
 if ($etag && $etag==server('HTTP_IF_NONE_MATCH')) {
-   header('HTTP/1.0 304 Not Modified');
+  header('HTTP/1.0 304 Not Modified');
+} else if ($formatted_last_modified_time && $formatted_last_modified_time==server('HTTP_IF_MODIFIED_SINCE')) {
+  header('HTTP/1.0 304 Not Modified');
 } else {
   fpassthru($fp);
 }
