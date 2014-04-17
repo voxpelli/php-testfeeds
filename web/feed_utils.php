@@ -59,17 +59,4 @@ function pubDate($index) {
   return date('D, d M Y H:i:s O', post_time($index));
 }
 
-function get($param_key, $options=array()) {
-  $options = array_merge([
-    'default' => '',
-    'left_padding' => '',
-    'right_padding' => '',
-    'right_padding_if_present' => '',
-  ], $options);
-  $val = isset($_GET[$param_key]) ? $_GET[$param_key] : $options['default'];
-  $val = $options['left_padding'] . $val . $options['right_padding'];
-  $val = $val . (strlen($val) > 0 ? $options['right_padding_if_present'] : '');
-  return $val;
-}
-
 ?>
