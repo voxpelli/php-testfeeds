@@ -5,7 +5,8 @@
 function yoink() {
   # TODO would be cool to do a head
   echo "Downloading $1 to $2"
-  cat $2 | curl -L -C - $1 > $2 # http://www.commandlinefu.com/commands/view/2876/use-curl-to-resume-a-failed-download
+  wget -O "$2" --no-check-certificate -c "$1"
+  #cat $2 | curl -L -C - $1 > $2 # http://www.commandlinefu.com/commands/view/2876/use-curl-to-resume-a-failed-download
   #if [ ! -f $2 ] ; then
     #curl -L $1 > $2
   #fi
