@@ -2,7 +2,7 @@
 
 require_once 'utils.php';
 
-global $file, $name, $need_body, $self_url;
+global $filepath, $name, $need_body, $self_url;
 
 function bodyless_header($header_string, $response_code=null) {
   global $need_body;
@@ -15,13 +15,13 @@ function bodyless_header($header_string, $response_code=null) {
 
 function write_type() {
 
-  global $file;
+  global $filepath;
 
   $type_spec = get('type', ['default'=>'true']);
   if ($type_spec!='_') {
     if ($type_spec=='true') {
       $finfo = finfo_open(FILEINFO_MIME_TYPE);
-      $mime_type = finfo_file($finfo, $file);
+      $mime_type = finfo_file($finfo, $filepath);
       finfo_close($finfo);
     } else {
       $mime_type = urldecode($type_spec);
@@ -33,12 +33,12 @@ function write_type() {
 
 function write_length() {
 
-  global $file;
+  global $filepath;
 
   $length_spec = get('length', ['default'=>'true']);
   if ($length_spec!='_') {
     if ($length_spec=='true') {
-      header("Content-Length: " . filesize($file));
+      header("Content-Length: " . filesize($filepath));
     } else {
       header("Content-Length: " . $length_spec);
     }
@@ -76,13 +76,12 @@ function write_last_modified() {
 
 }
 
-function open_file() {
+function get_filepath() {
 
-  global $name, $file;
+  global $name;
 
   $name = preg_replace("/[^a-zA-Z0-9.]+/", "", get('name', ['default'=>'freakowild.mp3']));
-  $file = './media/' . $name;
-  return fopen($file, 'rb');
+  return './media/' . $name;
 
 }
 
@@ -132,7 +131,14 @@ sleep($pre_delay);
 
 # Open file and write output
 $need_body = true;
-$fp = open_file();
+$filepath = get_filepath();
+if (file_exists($filepath))
+  $fp = fopen($filepath, 'rb');
+else {
+  bodyless_header("HTTP/1.0 404 Not Found", 404);
+  die();
+}
+
 write_redirect();
 write_type();
 write_length();
