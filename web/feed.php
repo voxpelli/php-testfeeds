@@ -34,7 +34,9 @@ END;
     <ttl>600</ttl>
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="<?= self_url() ?>" />
     <media:copyright>(c) Nuvomondo Ltd</media:copyright>
-    <media:thumbnail url="<?= image(-1) ?>" />
+<? if ($feed_media_image) { ?>
+    <media:thumbnail url="<?= $feed_media_image ?>" />
+<? } ?>
     <media:keywords><?= keywords(-1) ?></media:keywords>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Society &amp; Culture</media:category>
 <? if ($feed_img) { ?>
@@ -48,7 +50,7 @@ END;
 <? if ($itunes ) { ?>
     <itunes:author>Stephen J. Dubner and Sooty the Teddy Bear</itunes:author>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="<?= image(-1) ?>" />
+    <itunes:image href="<?= $itunes_image ?>" />
     <itunes:keywords>comedy, drama, tokyo, politics</itunes:keywords>
     <itunes:subtitle>Really quite an astonishing contribution to humanity and the finer arts</itunes:subtitle>
     <itunes:category text="Society &amp; Culture" /><? } ?>
@@ -70,8 +72,7 @@ END;
         <guid isPermaLink="false">http://<?= $_SERVER['HTTP_HOST'] ?>/<?= guid($index) ?></guid>
         <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Humphrey B. Bear</dc:creator>
         <media:content url="<?= mp3($index) ?>" type="audio/mpeg" />
-        <ttl>600</ttl>
-        <enclosure url="<?= mp3($title) ?>" type="audio/mpeg" />
+        <enclosure url="<?= mp3($title) ?>" type="audio/mpeg" length='3000' />
 <? if ($itunes ) { ?>
         <itunes:explicit><?= $explicit_string ?></itunes:explicit>
         <itunes:subtitle>My reflections</itunes:subtitle>
