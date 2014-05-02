@@ -50,19 +50,23 @@ function write_etag() {
 
   global $name;
 
+  $etag = null;
   $etag_spec = get('etag', ['default'=>sha1($name)]);
   if ($etag_spec!='_') {
     $etag = '"' . $etag_spec . '"';
     header('Etag: ' . $etag);
   }
 
-  if ($etag && $etag==server('HTTP_IF_NONE_MATCH'))
-    bodyless_header('HTTP/1.0 304 Not Modified');
+  if ($etag && $etag==server('HTTP_IF_NONE_MATCH')) {
+    bodyless_header('X-Not-Modified-On: ETag');
+    bodyless_header('HTTP/1.0 304 Not Modified', 304);
+  }
 
 }
 
 function write_last_modified() {
 
+  $formatted_last_modified_time = null;
   $epoch_secs = get('last_modified', ['default'=>1391848200]);
   if ($epoch_secs!='_') {
     $last_modified_time = new DateTime("@$epoch_secs");
@@ -71,8 +75,10 @@ function write_last_modified() {
     header('Last-Modified: ' . $formatted_last_modified_time);
   }
 
-  if ($formatted_last_modified_time && $formatted_last_modified_time==server('HTTP_IF_MODIFIED_SINCE'))
+  if ($formatted_last_modified_time && $formatted_last_modified_time==server('HTTP_IF_MODIFIED_SINCE')) {
+    bodyless_header('X-Not-Modified-On: Last-Modified');
     bodyless_header('HTTP/1.0 304 Not Modified', 304);
+  }
 
 }
 
