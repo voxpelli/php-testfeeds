@@ -57,12 +57,13 @@ Arguments
 License
 =======
 
-[Extracts from certain podcasts are included here, license is held by their
-original owners and they will soon be replaced by CC-licensed resources]
+[Extracts from certain podcasts and feeds are included here, license is held by
+their original owners and included here under what is assumed to be fair use as this
+is an openly-licensed project intended for education and technical advancement.]
 
 The MIT License (MIT)
 
-Copyright (c) from 2014, Michael Mahemoff
+Copyright (c) from 2014, Nuvomondo Ltd
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

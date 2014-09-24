@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+  <title>Herding Code</title>
+  
+  <link>http://herdingcode.com</link>
+  <description>The Herding Code Podcast</description>
+  <lastBuildDate>Fri, 12 Sep 2014 19:33:42 +0000</lastBuildDate>
+  <language>en-US</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+  <generator>http://wordpress.org/?v=4.0</generator>
+  <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/HerdingCode" /><feedburner:info uri="herdingcode" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><media:copyright>Creative Commons (by-nc-sa)</media:copyright><media:thumbnail url="http://herdingcode.com/herdingCode.png" /><media:keywords>dotnet,asp,net,programming,software,web,development</media:keywords><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology/Tech News</media:category><itunes:owner><itunes:email>jon_galloway@yahoo.com</itunes:email><itunes:name>Herding Code</itunes:name></itunes:owner><itunes:author>Herding Code</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="http://herdingcode.com/herdingCode.png" /><itunes:keywords>dotnet,asp,net,programming,software,web,development</itunes:keywords><itunes:subtitle>A weekly discussion on software development</itunes:subtitle><itunes:summary>A weekly discussion featuring K. Scott Allen (odetocode.com), Kevin Dente, Scott Koon (lazycoder.com), and Jon Galloway.</itunes:summary><itunes:category text="Technology"><itunes:category text="Tech News" /></itunes:category><creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/3.0/</creativeCommons:license><feedburner:emailServiceId>HerdingCode</feedburner:emailServiceId><feedburner:feedburnerHostname>https://feedburner.google.com</feedburner:feedburnerHostname><item>
+    <title>Herding Code 196: Matias Niemela on ngAnimate</title>
+    <link>http://feedproxy.google.com/~r/HerdingCode/~3/ORXAu2NmSBk/</link>
+    <comments>http://herdingcode.com/herding-code-196-matias-niemela-on-nganimate/#comments</comments>
+    <pubDate>Fri, 12 Sep 2014 19:05:56 +0000</pubDate>
+    <dc:creator>jon_galloway@yahoo.com (Herding Code)</dc:creator>
+        <category><![CDATA[podcast]]></category>
+
+    <guid isPermaLink="false">http://herdingcode.com/?p=670</guid>
+    <description><![CDATA[The guys talk to AngularJS committer Matias Niemela about AngularJS and Angular animations with ngAnimate. Download / Listen: Herding Code 196: Matias Niemela on ngAnimate Show Notes: Hello. How&#8217;d you get started with AngularJS and ngAnimate? (01:00) K Scott notes a tweet from Matias that he liked Angular before it was popular and asks Matias [&#8230;]]]></description>
+        <content:encoded><![CDATA[<p>The guys talk to AngularJS committer Matias Niemela about AngularJS and Angular animations with ngAnimate.</p>
+<p>Download / Listen: <a href="http://herdingcode.com/wp-content/uploads/HerdingCode-0196-Matias-Niemela.mp3">Herding Code 196: Matias Niemela on ngAnimate</a></p>
+<!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+<audio class="wp-audio-shortcode" id="audio-670-1" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://herdingcode.com/wp-content/uploads/HerdingCode-0196-Matias-Niemela.mp3?_=1" /><a href="http://herdingcode.com/wp-content/uploads/HerdingCode-0196-Matias-Niemela.mp3">http://herdingcode.com/wp-content/uploads/HerdingCode-0196-Matias-Niemela.mp3</a></audio>
+<p>Show Notes:</p>
+<ul>
+<li>Hello. How&#8217;d you get started with AngularJS and ngAnimate?
+<ul>
+<li>(01:00) K Scott notes a tweet from Matias that he liked Angular before it was popular and asks Matias about how he got started with Angular and how he became a contributor, primarily contributing to animation. He&#8217;s also contributed to angular-dart and forms. (03:17) K Scott asks about the history of Animations. Matias talks about how things evolved to working with CSS classes. K Scott talks about how he found the source code for animations was pretty interesting, and Matias agrees. </li>
+</ul>
+</li>
+<li>Dart and Google Material Design
+<ul>
+<li>(04:47) K Scott asks about AngularDart relates to Angular. Matias explains that both are from Google, and they want to make sure that it&#8217;s easy to build Angular applications using Dart if you want to. </li>
+<li>(05:39) Jon asks is Matias is working in both the 1.x and 2.0 source. Matias says he&#8217;s mostly focused on the 1.2 and 1.3 release and lately incorporating Google&#8217;s new Material Design, especially with animations and components. Angular Material Design includes styles and animations, but is built to allow you hooks to add your own styles and animations, transparently syncing them together in a consistent way. </li>
+</ul>
+</li>
+<li>Animation internals</li>
+<ul>
+<li>(08:14) K Scott asks for Matias&#8217; thoughts on CSS Animations. Matias says the API is too isolated, so there&#8217;s no way to hook into the keyframe system. CSS Transitions do allow for that, but you can&#8217;t repeat transitions. Putting them together, it&#8217;s difficult to create a comprehensive system that&#8217;s guaranteed to always run. The Material Design animations work with the Web Animations API, which is a more robust animations API. Currently only Chrome support the .animate method, and the Web Animations API spec is still being written, but Polymer has a polyfill. </li>
+<li>(10:16) Jon asks about browser support and whether Matias is able to write to standards or if he has to do a lot of special casing. Matias says that the Polymer polyfill and the animations API covers almost everything without special casing. </li>
+<li>(11:11) K Scott asks what the most challenging part of Angular Matias has worked on so far. Matias says the challenge has been the animations, especially in refactoring over time. </li>
+</ul>
+<li>Testing in JavaScript</li>
+<ul>
+<li>(12:56) K Scott asks how Matias tests animations. He says that the tests are all mocked, so they&#8217;re not running against animation engines. He says it&#8217;s been difficult testing asynchronous code in a synchronous manner. </li>
+<li>(14:38) Jon asks if Matias uses Javascript libraries to deal with asynchronous code. Matias says that&#8217;s all handled by Angular itself. </li>
+</ul>
+<li>ECMAScript 6</li>
+<ul>
+<li>(15:15) K Scott asks for Matias&#8217; thoughts on ECMAScript 6. Matias says that Angular 2 is built with ECMAScript 6 using traceur for backward compatibility. He likes the classes and generators an syntactic features, but after working with Dart there are a lot of other features he&#8217;s missing. The problem is that JavaScript is non-blocking, so the code will always be a series of callbacks with variables to see if a callback has fired. Promises are great, but they&#8217;re just packaged callbacks in a way. </li>
+</ul>
+<li>Getting Started, Form Validation</li>
+<ul>
+<li>(16:50) Jon asks for pointers for someone who&#8217;s new to ngAnimate. Matias says he&#8217;s written documentation for 1.2, but some of it isn&#8217;t up to date. There&#8217;s a SitePoint article about it, and when 1.3 is out Matias will have an article out about it. </li>
+<li>(17:38) K Scott asks about form validation. Matias talks about the work they&#8217;ve been doing with forms in 1.3. </li>
+</ul>
+<li>ECMAScript 6 and JavaScript Development</li>
+<ul>
+<li>(18:55) Twitter question from Steve Strong asked for news on Angular 2.0 and how important ECMAScript 6 is to it. Matias talks about how ES6+ (ES6 with annotations support) simplify dependency injection. </li>
+<li>(21:13) K Scott asks if Matias liked using JavaScript back when he was doing more full stack development. Matias talks about how he used to write a lot of JavaScript to do things that Angular just handles. </li>
+<li>(22:38) K Scott says that Matias&#8217; blog and twitter names, Year Of Moo, made him thing that Matias might have been involved with Moo Tools. Matias says he used to be heavily invested in Moo Tools because it supported proper object oriented programming (as opposed to jQuery&#8217;s looser approach). He eventually switched to jQuery and then to Angular. He&#8217;d originally named his blog around an idea of writing a new Moo Tools plugin each month for a year, but kept the name because it&#8217;s unique. </li>
+</ul>
+<li>More Testing</li>
+<ul>
+<li>(23:50) K Scott asks Matias when he became passionate about testing. He talks about how valuable tests have been to him. </li>
+<li>(24:45) Jon asks if Matias has any recommendations on testing. His suggestion is to pay attention to what you&#8217;re after. Your tests are to make sure that the code you&#8217;ve written work, so test the main points of functionality. Look for friction points &#8211; things that will not change &#8211; and test those. Try to write some of your own unit tests first, and when you get frustrated look at how projects like Angular are writing their tests. </li>
+</ul>
+<li>Inspiration and Design</li>
+<ul>
+<li>(26:12) K Scott asks Matias what he&#8217;s been looking to for inspiration. Matias has lately inspired by Clojure and books on software patterns and refactoring. </li>
+<li>(26:51) Jon asks Matias about his site&#8217;s design and use of color. Matias says the cartoons on his site are by his girlfriend who is a graphic designer. He says that most technical bloggers are not focused on writing articles. His goal is to push the boundaries of technical blogging and to address the frustrations he&#8217;s had in reading other technical blogs. </li>
+<li>(28:41) Jon says he really likes Matias&#8217; use of multiple em classes with different colors. Matias discusses that, and says that he&#8217;s rewriting the website from Jeckyl to Hugo (which is built with Go). </li>
+</ul>
+<li>Wrap up</li>
+<ul>
+<li>(29:58) K Scott asks what Matias does for fun. He mentions travel (he&#8217;s from Finland), golf and going to the gym. But computers is a big passion of his, so it&#8217;s rare that he&#8217;s away from the computer. </li>
+<li>(30:28) K Scott says he used to play golf a lot, but he&#8217;s been making an effort to get out golfing at least once a week. Matias says it&#8217;s definitely a challenge a lot of programmers face &#8211; most of us like what we do, and going outside requires intention. Jon talks about his friends in other professions who leave their work at work. Matias talks about the portability aspect of computing. </li>
+<li>(32:24) K Scott asks Matias about what&#8217;s on the way for for him. He mentions some posts and upcoming speaking engagements, especially ngEurope in October in Paris, talking about what&#8217;s new with Angular and ngAnimate. </li>
+</ul>
+</ul>
+<p>Show Links:</p>
+<ul>
+<li>Matias Niemela (<a title="http://mahemoff.com/" href="http://yearofmoo.com/">http://yearofmoo.com/</a>,&#160; <a title="https://twitter.com/mahemoff" href="https://twitter.com/yearofmoo">@yearofmoo</a>) </li>
+<li><a href="https://material.angularjs.org/">Angular Material Design examples</a> </li>
+<li><a href="https://github.com/google/traceur-compiler/blob/master/README.md">Traceur compiler</a> </li>
+<li><a href="http://www.yearofmoo.com/2013/04/animation-in-angularjs.html">ngAnimations post series</a> (currently covers ngAnimate 1.2) </li>
+<li><a href="http://www.sitepoint.com/adding-css-animations-angularjs-applications/">Adding CSS Animations to AngularJS Applications</a> (SitePoint) </li>
+<li><a href="http://ngeurope.org/">ng-europe</a> (October 22-23, Paris) </li>
+</ul>
+<p>Sponsor</p>
+<p>This show is brought to you by Runscope &#8211; find out more at <a href="http://runscope.com/herdingcode">http://runscope.com/herdingcode</a> </p>
+<p><a href="http://runscope.com/herdingcode"><img style="border-left-width: 0px; max-width: 100%; border-right-width: 0px; border-bottom-width: 0px; border-top-width: 0px" src="https://www.runscope.com/static/img/press/logo-runscope-wordmark-white.png" /></a></p>
+<img src="http://feeds.feedburner.com/~r/HerdingCode/~4/ORXAu2NmSBk" height="1" width="1"/>]]></content:encoded>
+      <wfw:commentRss>http://herdingcode.com/herding-code-196-matias-niemela-on-nganimate/feed/</wfw:commentRss>
+    <slash:comments>0</slash:comments>
+    <media:content url="http://feedproxy.google.com/~r/HerdingCode/~5/oSiwLVTMSoo/HerdingCode-0196-Matias-Niemela.mp3" fileSize="8604503" type="audio/mpeg" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>The guys talk to AngularJS committer Matias Niemela about AngularJS and Angular animations with ngAnimate. Download / Listen: Herding Code 196: Matias Niemela on ngAnimate Show Notes: Hello. How&amp;#8217;d you get started with AngularJS and ngAnimate? (01:00</itunes:subtitle><itunes:author>Herding Code</itunes:author><itunes:summary>The guys talk to AngularJS committer Matias Niemela about AngularJS and Angular animations with ngAnimate. Download / Listen: Herding Code 196: Matias Niemela on ngAnimate Show Notes: Hello. How&amp;#8217;d you get started with AngularJS and ngAnimate? (01:00) K Scott notes a tweet from Matias that he liked Angular before it was popular and asks Matias [&amp;#8230;]</itunes:summary><itunes:keywords>dotnet,asp,net,programming,software,web,development</itunes:keywords><feedburner:origLink>http://herdingcode.com/herding-code-196-matias-niemela-on-nganimate/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/HerdingCode/~5/oSiwLVTMSoo/HerdingCode-0196-Matias-Niemela.mp3" length="8604503" type="audio/mpeg" /><feedburner:origEnclosureLink>http://herdingcode.com/wp-content/uploads/HerdingCode-0196-Matias-Niemela.mp3</feedburner:origEnclosureLink></item>
+    <item>
+    <title>Herding Code 195: Michael Mahemoff on Player FM</title>
+    <link>http://feedproxy.google.com/~r/HerdingCode/~3/qzFhq_wfIp4/</link>
+    <comments>http://herdingcode.com/herding-code-195-michael-mahemoff-on-player-fm/#comments</comments>
+    <pubDate>Fri, 15 Aug 2014 20:46:15 +0000</pubDate>
+    <dc:creator>jon_galloway@yahoo.com (Herding Code)</dc:creator>
+        <category><![CDATA[interview]]></category>
+    <category><![CDATA[podcast]]></category>
+
+    <guid isPermaLink="false">http://herdingcode.com/?p=668</guid>
+    <description><![CDATA[The guys talk to Michael Mahemoff about Player FM, a cloud based podcast application which is focused on discovery and multi-device synchronization that he recently showed off at Google I/O. Download / Listen: Herding Code 195: Michael Mahemoff on Player FM Show Notes: Hello. What is Player FM? (00:48) K Scott asks Mike for a [&#8230;]]]></description>
+        <content:encoded><![CDATA[<p>The guys talk to Michael Mahemoff about Player FM, a cloud based podcast application which is focused on discovery and multi-device synchronization that he recently showed off at Google I/O.</p>
+<p>Download / Listen: <a href="http://herdingcode.com/wp-content/uploads/HerdingCode-0195-Michael-Mahemoff.mp3">Herding Code 195: Michael Mahemoff on Player FM</a></p>
+<audio class="wp-audio-shortcode" id="audio-668-2" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://herdingcode.com/wp-content/uploads/HerdingCode-0195-Michael-Mahemoff.mp3?_=2" /><a href="http://herdingcode.com/wp-content/uploads/HerdingCode-0195-Michael-Mahemoff.mp3">http://herdingcode.com/wp-content/uploads/HerdingCode-0195-Michael-Mahemoff.mp3</a></audio>
+<p>Show Notes:</p>
+<ul>
+<li>Hello. What is Player FM? </li>
+<ul>
+<li>(00:48) K Scott asks Mike for a quick introduction. Mike has studies both psychology and software engineering and has worked on a variety of applications, focusing lately on HTML5 web applications. He&#8217;s been working for the past few years on Player FM, a cloud based podcast application which is focused on discovery and multi-device synchronization. </li>
+<li>(01:55) K Scott asks about the technologies used to build Player FM. Mike talks about the advantages of moving feed fetching to the cloud, the web site (using a PJAX implementation which pushes markup rather than data and HTML5 history) and an API. </li>
+</ul>
+<li>Player FM API</li>
+<ul>
+<li>(04:33) K Scott asks more about the API. The server is running Ruby on Rails using controllers that supply different format based on the extension in URL. The API is publicly available for experimentation but isn&#8217;t officially supported. Mike&#8217;s set up using a spectrum of detail levels (none, id, medium and full) rather than allowing clients to select specific fields. This allows you to be efficient in your API requests for hierarchies but is still cachable. He&#8217;s created a framework to support that. </li>
+<li>(09:10) Jon mentions some of the URLs he&#8217;s seeing in browsing the API for listeners who want to play along at home. He asks Mike about the balance of a self documenting API vs the full hypermedia smart client approach. Mike says he thinks the API needs to be pretty mature for that to work and points out some of the curated lists in the feed. </li>
+<li>(11:33) K Scott asks if the curation is community based. Mike says that&#8217;s the eventual goal, but for now he&#8217;s doing that. </li>
+<li>(12:23) K Scott asks about the difficulty in tracking when all the feeds have been last updated. Mike says that originally it was a simple loop using feedzilla. Now it&#8217;s using sidekick and the PubSubHubbub standard (using the superfeeder service and webhooks). The clients are still polling now, but he&#8217;s going to be updating the clients to use Google Cloud Messaging (on Android) and iCloud Messaging (on Apple) so the updates will be realtime from publisher to client. </li>
+</ul>
+<li>Native clients for Android and iOS</li>
+<ul>
+<li>(14:30) K Scott asks if Mike&#8217;s building native clients. Mike says the iOS client is still in development and the Android app is native. K Scott says he&#8217;s wanted to do some Android dev but it&#8217;s always seemed like the most difficult platform. Mike says that it&#8217;s gotten easier lately due to the new application services and gives an example of the Google Wear Services. Jon asks for some more info on the Google Wear integration and Mike explains how any media framework application automatically gets some support, and they&#8217;ve extended it to create a phone application to allow episode browsing on the watch. </li>
+<li>(17:15) K Scott says he was surprised by Mike&#8217;s blog post about the demand for Chromecast support for audio applications and asks about the work required to build that support. Mike explains the API integration and says that the hardest part was complying with the look and feel guidelines. </li>
+</ul>
+<li>Advanced podcast support with Podlove</li>
+<ul>
+<li>(20:02) Jon asks if there are things that podcasts can add to enable podcast applications to give a better experience. Mike talks about emerging standards like Podlove which adds support for chapters, time based links, attributions and related feeds. Jon says he&#8217;s been including timestamps in the show notes for a while so that seems pretty easy to implement. Mike talks about how TimeJump and Podlove could allow for deep linking into content. </li>
+<li>(22:18) K Scott asks what&#8217;s been frustrating in dealing with feeds. Mike talks about the difficulty in feed parsing and the differing standards and implementations. Jon says he&#8217;s always just used Feedburner. Mike likes Feedburner and appreciates the built-in support for PubSubHubbub and would like to see Google pay more attention to it. </li>
+</ul>
+<li>Misc: Business plan, mobile web support and Google I/O</li>
+<ul>
+<li>(24:24) K Scott asks if Player FM is Mike&#8217;s full time job. Mike says it is. They&#8217;re not monetizing it yet, but he&#8217;s building out a freemium service with advanced features like unlimited subscriptions and advanced syncing across devices. </li>
+<li>(26:16) Jon asks if Mike has plans for a Windows Phone application. Mike says he&#8217;d love to support it eventually, but right now his support for other platforms is via the mobile optimized website and the Player FM feeds. </li>
+<li>(27:06) K Scott asks about Mike&#8217;s experience in bringing Player FM to Google I/O. Mike talks about the experience &#8211; it was his 4th Google I/O, and he&#8217;s been both an attendee and speaker in the past, but this time he was too busy to attend. </li>
+</ul>
+<li>User Experience</li>
+<ul>
+<li>(28:43) K Scott asks how Mike&#8217;s psychology degree has helped him in software development. Mike talks about the applications in user interface design and machine learning. Jon asks about Mikes thesis about human computer interaction; Mike talks about user interface design patterns for consistency. </li>
+<li>(32:20) K Scott says he&#8217;s happy the Player FM site doesn&#8217;t use the ubiquitous cheeseburger menu. Mike talks about some of the UI design features in the web application.</li>
+</ul>
+<li>API Optimization</li>
+<ul>
+<li>(33:19) K Scott asks about optimizations in the API. Mike talks about timestamps in the API responses so the mobile applications can keep aware of which channels have been updated and get the responses from edge servers. </li>
+<li>(36:10) Jon asks about using JSON LD and E-Tags. Mike says he hasn&#8217;t needed that since he&#8217;s building the clients and they&#8217;re doing the same checking. </li>
+<li>(37:39) Jon asks how Cloudflare has worked for Mike. Mike says it&#8217;s been great, but there were a few surprises like caching of error responses. </li>
+<li>(38:40) K Scott asks if it&#8217;s possible to remove things from the cache. Mike explains some of the options. Jon talks about some of the difficulties in diagnosing content problems when you&#8217;ve got multiple levels of caching and Mike agrees that it&#8217;d be nice if there were some visibility via HTTP headers. </li>
+</ul>
+<li>Search and Discovery</li>
+<ul>
+<li>(40:48) Jon asks if Player FM has additional markup to light up in search results. Mike says they were one of the early sites to be included in the Google app indexing setup, which supports deep linking in Android applications. </li>
+<li>(42:30) K Scott says he&#8217;s looking forward to the recommendation features and Mike describes some of the things they&#8217;re including. </li>
+<li>(43:30) Mike talks about Player FM support for full text search using Elastic Search to allow for easier discovery. </li>
+<li>(44:25) Kevin asks if transcripts could be included in the full text search. Mike talks about some of the standards support. </li>
+</ul>
+<li>Wrap Up</li>
+<ul>
+<li>(45:49) K Scott asks what Mike does when he&#8217;s not working on Player FM. </li>
+<li>(46:47) K Scott asks Mike what&#8217;s coming up for him in the near future. Mike talks about some Player FM features he&#8217;s excited about working on like intelligent discovery, collaborative filtering, server-side play tracking, analytics and platform support including an desktop form factor that will work offline. The desktop application is based on an open source project they&#8217;re working on that will compile a Chrome application and cross-compile native applications for Windows, Apple and Linux (based on node webkit). </li>
+<li>(48:20) K Scott asks for any last words; Mike says he&#8217;s happy for any questions at <a href="mailto:mike@playerfm.com">mike@playerfm.com</a>. </li>
+</ul>
+</ul>
+<p>Show Links:</p>
+<ul>
+<li>Michael Mahemoff (<a title="http://mahemoff.com/" href="http://mahemoff.com/">http://mahemoff.com/</a>,&#160; <a title="https://twitter.com/mahemoff" href="https://twitter.com/mahemoff">@mahemoff</a>) </li>
+<li><a href="https://player.fm/">Player FM</a> </li>
+<li><a href="http://blog.player.fm/design-develop-and-distribute-player-fm-at-google-io-2014/">Design, Develop And Distribute: Player FM At Google IO Developer Sandbox</a> </li>
+<li><a title="http://podlove.org/projects/" href="http://podlove.org/projects/">Podlove Projects</a> </li>
+<li><a href="https://code.google.com/p/pubsubhubbub/">PubSubHubbub</a> </li>
+<li><a title="http://json-ld.org/" href="http://json-ld.org/">JSON-LD</a> (JSON for Linking Data) </li>
+<li><a title="http://ui-patterns.com/" href="http://ui-patterns.com/">UI Patterns</a> </li>
+</ul>
+<p>Sponsor</p>
+<p>This show is brought to you by Runscope &#8211; find out more at <a href="http://runscope.com/herdingcode">http://runscope.com/herdingcode</a> </p>
+<p><a href="http://runscope.com/herdingcode"><img style="border-left-width: 0px; max-width: 100%; border-right-width: 0px; border-bottom-width: 0px; border-top-width: 0px" src="https://www.runscope.com/static/img/press/logo-runscope-wordmark-white.png" /></a></p>
+<img src="http://feeds.feedburner.com/~r/HerdingCode/~4/qzFhq_wfIp4" height="1" width="1"/>]]></content:encoded>
+      <wfw:commentRss>http://herdingcode.com/herding-code-195-michael-mahemoff-on-player-fm/feed/</wfw:commentRss>
+    <slash:comments>1</slash:comments>
+    <media:content url="http://feedproxy.google.com/~r/HerdingCode/~5/_fRjE5us170/HerdingCode-0195-Michael-Mahemoff.mp3" fileSize="13999475" type="audio/mpeg" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>The guys talk to Michael Mahemoff about Player FM, a cloud based podcast application which is focused on discovery and multi-device synchronization that he recently showed off at Google I/O. Download / Listen: Herding Code 195: Michael Mahemoff on Player </itunes:subtitle><itunes:author>Herding Code</itunes:author><itunes:summary>The guys talk to Michael Mahemoff about Player FM, a cloud based podcast application which is focused on discovery and multi-device synchronization that he recently showed off at Google I/O. Download / Listen: Herding Code 195: Michael Mahemoff on Player FM Show Notes: Hello. What is Player FM? (00:48) K Scott asks Mike for a [&amp;#8230;]</itunes:summary><itunes:keywords>dotnet,asp,net,programming,software,web,development</itunes:keywords><feedburner:origLink>http://herdingcode.com/herding-code-195-michael-mahemoff-on-player-fm/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/HerdingCode/~5/_fRjE5us170/HerdingCode-0195-Michael-Mahemoff.mp3" length="13999475" type="audio/mpeg" /><feedburner:origEnclosureLink>http://herdingcode.com/wp-content/uploads/HerdingCode-0195-Michael-Mahemoff.mp3</feedburner:origEnclosureLink></item>
+  <copyright>Creative Commons (by-nc-sa)</copyright><media:credit role="author">Herding Code</media:credit><media:rating>nonadult</media:rating><media:description type="plain">A weekly discussion on software development</media:description></channel>
+</rss><!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk
+Database Caching 1/155 queries in 1.298 seconds using disk
+Object Caching 5648/5955 objects using disk
+
+ Served from: herdingcode.com @ 2014-09-22 11:03:57 by W3 Total Cache -->
+
