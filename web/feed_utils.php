@@ -34,9 +34,9 @@ function phrase($index) {
   return sprintf("%s %s in %s", sample($adjectives), sample($animals), sample($countries));
 }
 
-function mp3($title) {
+function mp3($media_scheme_prefix, $title) {
   $query = preg_replace('/\s+/', '+', $title);
-  return "http://tts-api.com/tts.mp3?q=" . $query;
+  return $media_scheme_prefix . "//tts-api.com/tts.mp3?q=" . $query;
 }
 
 function image($index) {

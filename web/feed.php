@@ -71,8 +71,8 @@ END;
         <language>en-us</language>
         <guid isPermaLink="false"><?= $server_prefix ?>/<?= guid($index) ?></guid>
         <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Humphrey B. Bear</dc:creator>
-        <media:content url="<?= mp3($index) ?>" type="audio/mpeg" />
-        <enclosure url="<?= mp3($title) ?>" type="audio/mpeg" length='3000' />
+        <media:content url="<?= mp3($media_scheme_prefix, $index) ?>" type="audio/mpeg" />
+        <enclosure url="<?= mp3($media_scheme_prefix, $index) ?>" type="audio/mpeg" length='3000' />
 <? if ($itunes ) { ?>
         <itunes:explicit><?= $explicit_string ?></itunes:explicit>
         <itunes:subtitle>My reflections</itunes:subtitle>
