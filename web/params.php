@@ -1,4 +1,4 @@
-<?
+<?php
 $interval = get('interval', ['default'=>10]);
 $latest_time = get('time', ['default'=>time()]); # time of latest post
 $title_prefix = get('title_prefix', ['right_padding_if_present' => ' ']);

@@ -1,4 +1,4 @@
-<?
+<?php
 ##############################################################################
 # Initial content
 ##############################################################################
@@ -13,7 +13,7 @@ echo <<<END
 END;
 ?>
 
-<?
+<?php
 ##############################################################################
 # Channel (main feed data)
 ##############################################################################
@@ -34,29 +34,29 @@ END;
     <ttl>600</ttl>
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="<?= self_url() ?>" />
     <media:copyright>(c) Nuvomondo Ltd</media:copyright>
-<? if ($feed_media_image) { ?>
+<?php if ($feed_media_image) { ?>
     <media:thumbnail url="<?= $feed_media_image ?>" />
-<? } ?>
+<?php } ?>
     <media:keywords><?= keywords(-1) ?></media:keywords>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Society &amp; Culture</media:category>
-<? if ($feed_img) { ?>
+<?php if ($feed_img) { ?>
     <img src="<?= image(-1) ?>">
-<? } ?>
-<? if ($feed_image) { ?>
+<?php } ?>
+<?php if ($feed_image) { ?>
     <image>
       <url><?= image(-1) ?></url>
     </image>
-<? } ?>
-<? if ($itunes ) { ?>
+<?php } ?>
+<?php if ($itunes ) { ?>
     <itunes:author>Stephen J. Dubner and Sooty the Teddy Bear</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="<?= $itunes_image ?>" />
     <itunes:keywords>comedy, drama, tokyo, politics</itunes:keywords>
     <itunes:subtitle>Really quite an astonishing contribution to humanity and the finer arts</itunes:subtitle>
-    <itunes:category text="Society &amp; Culture" /><? } ?>
+    <itunes:category text="Society &amp; Culture" /><?php } ?>
 
-    <? for ($index = 1; $index <= 5; $index++) { ?>
-<?
+    <?php for ($index = 1; $index <= 5; $index++) { ?>
+<?php
 ##############################################################################
 # Item
 ##############################################################################
@@ -73,15 +73,15 @@ END;
         <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Humphrey B. Bear</dc:creator>
         <media:content url="<?= mp3($media_scheme_prefix, $title) ?>" type="audio/mpeg" />
         <enclosure url="<?= mp3($media_scheme_prefix, $title) ?>" type="audio/mpeg" length='3000' />
-<? if ($itunes ) { ?>
+<?php if ($itunes ) { ?>
         <itunes:explicit><?= $explicit_string ?></itunes:explicit>
         <itunes:subtitle>My reflections</itunes:subtitle>
         <itunes:author>Humphrey B. Bear</itunes:author>
         <itunes:summary>About <?= $title ?></itunes:summary>
         <itunes:keywords><?= keywords($index) ?></itunes:keywords>
-<? } ?>
+<?php } ?>
       </item>
-    <? } ?>
+    <?php } ?>
 
     <copyright>(c) Nuvomondo Ltd</copyright>
     <media:credit role="author">Humphrey B. Bear</media:credit>

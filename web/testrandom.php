@@ -4,8 +4,8 @@
   require_once './random.php';
 ?>
 
-<? Random::seed(100) ?>
+<?php Random::seed(100) ?>
 
-<? for ($i=0; $i < 10; $i++) { ?>
+<?php for ($i=0; $i < 10; $i++) { ?>
   <p><?= Random::num(1, 5) ?></p>
-<? } ?>
+<?php } ?>

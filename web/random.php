@@ -1,4 +1,4 @@
-<?
+<?php
 # Deterministic random generator
 # http://www.sitepoint.com/php-random-number-generator/
 
